@@ -5,6 +5,7 @@ function scanear(){
           var secret = "vinfo";
           var cryptedMsg = CryptoJS.AES.decrypt(plaintext, secret).toString(CryptoJS.enc.Utf8);
           alert(cryptedMsg);
+          $("#myModal").modal();
       }, 
       function (error) {
           $(".alert-danger").show();
