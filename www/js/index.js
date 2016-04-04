@@ -26,3 +26,6 @@ function scanear(){
       }
       ); 
 }
+function closeApp(){
+  navigator.app.exitApp();
+}
