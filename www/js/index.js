@@ -1,12 +1,11 @@
 function scanear(){
-   localStorage.setItem("scanner","true");
+  alert(22);
    cordova.plugins.barcodeScanner.scan(
       function (result) {
-          $("#code_b").val(result.text);
-          setCode(result.text);
+          alert(result.text);
       }, 
       function (error) {
-          myApp.alert("Problemas Scanneando: "+error, "");
+          alert("Problemas Scanneando: "+error);
       }
       ); 
 }
