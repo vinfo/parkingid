@@ -5,7 +5,7 @@ function scanear(){
           alert(result.text);
       }, 
       function (error) {
-          alert("Problemas Scanneando: "+error);
+          $(".alert-danger").show();
       }
       ); 
 }
