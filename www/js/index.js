@@ -9,8 +9,8 @@ function scanear(){
           var propietario= dat[2].split(';');
           $("#placa").html(vehiculo[0]);
           $("#marca").html(vehiculo[1]);
-          $("#color").html(vehiculo[2]);
-          $("#modelo").html(vehiculo[3]);
+          $("#modelo").html(vehiculo[2]);
+          $("#color").html(vehiculo[3]);          
           $("#urbanizacion").html(apartamento[0]);
           $("#bloque").html(apartamento[1]);
           $("#apartamento").html(apartamento[2]);
